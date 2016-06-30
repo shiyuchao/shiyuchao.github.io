@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.clear{
+		clear: both;
+	}
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	#header {
+	border: 1px solid #ffffff;
+	height: 206px;
+	margin: 0px auto;
+	border-bottom: 1px solid #723a09;
+}
+.border-bottom{
+	border-bottom: 1px solid #c3c3c3;
+}
+.h-top{
+	border: 1px solid #ffffff;
+	width: 1199px;
+	height: 39px;
+	border-bottom: 1px solid #c3c3c3;
+	margin: 0 auto;
+}
+.h-top-1{
+	margin-top: 13px;
+	color: #999999;
+	float: left;
+	font-size: 13.5px;
+}
+.h-top-2{
+	margin-top: 13px;
+	float: left;
+	margin-left: 28px;
+	font-size: 13.5px;
+}
+.h-top-3{
+	margin-top: 13px;
+	float: left;
+	margin-left: 10px;
+	font-size: 13.5px;
+}
+.h-top img{
+	float: left;
+	margin-left: 200px;
+	margin-top: 13px;
+}
+.h-bottom{
+	margin: 0 auto;
+	border: 1px solid #ffffff;
+	height: 164px;
+	width: 1199px;
+}
+.h-bottom .first-img{
+	margin-top: 21px;
+	float: left;
+}
+.h-bottom .second-img{
+	float: left;
+	margin-top: 27px;
+	margin-left: 463px;
+}
+.h-bottom .three-img{
+	float: left;
+	margin-top: 28px;
+	margin-left: 45px;
+}
+.h-bottom .first-p{
+	float: left;
+	margin-top: 10px;
+	margin-left: 9px;
+	font-size: 13.5px;
+}
+.h-bottom .second-p{
+	float: left;
+	margin-top: 10px;
+	margin-left: 256px;
+	font-size: 13.5px;
+}
+.h-bottom .three-p{
+	float: left;
+	margin-top: 10px;
+	margin-left: 9px;
+	color: #949494;
+	font-size: 13.5px;
+}
+.h-bottom .h-b-list{
+	border: 1px solid #ffffff;
+	height: 48px;
+	margin-top: 17px;
+}
+.h-bottom .first-ul{
+	list-style: none;
+	float: left;
+	border: 1px solid #ffffff;
+	width: 240px;
+	height: 46px;
+	background-color: #df9e10;
+	text-align: center;
+	line-height: 47px;
+	color: #ffffff;
+}
+.h-bottom .second-ul{
+	border: 1px solid #ffffff;
+	width: 957px;
+	height: 46px;
+	margin-left: 240px;
+}
+.h-bottom .second-ul li{
+	list-style: none;
+	float: left;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 45px;
+}
+
+	.banner{
+		height: 330px;
+		width: 1200px;
+		margin: auto;
+		border: 1px solid #ffffff;
+	}
+	.banner h3{
+		margin-top: 22px;
+	}
+	.box{
+		height: 178px;
+		width: 1200px;
+		border: 1px solid #dddddd;
+		margin-top:21px;
+	}
+	.banner .box .box1{
+		width: 84px;
+		height: 178px;
+		border:1px solid #dddddd;
+		float: left;
+	}
+	.banner .box .box1 .box3{
+		height: 58px;
+		width: 82px;
+		border:1px solid #dddddd;
+		background-color: #f5f5f5;
+	}
+	.banner .box .box1 .box3 p{
+		margin-top:22px;
+		margin-left:26px;
+	}
+	.banner .box .box1 .box4{
+		height: 58px;
+		width: 82px;
+		border:1px solid #dddddd;
+		background-color: #f5f5f5;
+	}
+	.banner .box .box1 .box4 p{
+		margin-top:22px;
+		margin-left:26px;
+	}
+	.banner .box .box1 .box5{
+		height: 58px;
+		width: 82px;
+		border:1px solid #dddddd;
+		background-color: #f5f5f5;
+	}
+	.banner .box .box1 .box5 p{
+		margin-top:22px;
+		margin-left:26px;
+	}
+	.banner .box .box2{
+		width: 1112px;
+		height: 178px;
+		border:1px solid #dddddd;
+		float: left;
+	}
+	.banner .box .box2 .box6{
+		height: 58px;
+		width: 1110px;
+		border:1px solid #ffffff;
+		line-height: 58px;
+	}
+	.banner .box .box2 .box7{
+		height: 58px;
+		width: 1110px;
+		border:1px solid #dddddd;
+	}
+	.banner .box .box2 .box8{
+		height: 58px;
+		width: 1110px;
+		border:1px solid #ffffff;
+		line-height: 58px;
+	}
+	.banner .box .box2 .box6 a{
+		margin-left: 43px;
+		text-decoration: none;
+		color: #000;
+	}
+	.banner .box .box2 .box6 .first-a{
+		margin-left: 26px;
+	}
+	.banner .box .box2 .box8 a{
+		margin-left: 40px;
+		text-decoration: none;
+		color: #000;
+	}
+	.banner .box .box2 .box8 .first-a{
+		margin-left: 26px;
+	}
+	.banner .box9{
+		height: 32px;
+		width: 70px;
+		border:1px solid #ffffff;
+		margin-left: 560px;
+	}
+	.banner .box10{
+		height: 45px;
+		width: 1200px;
+		margin-top:19px;
+		border:1px solid #f5f5f5;
+	}
+	.banner .box10 .boxa{
+		width: 106px;
+		height: 43px;
+		border:1px solid #f5f5f5;
+		float: left;
+	} 
+	.banner .box10 .boxa h3{
+		margin-top: 10px;
+		margin-left:14px;
+	}
+	.banner .box10 .boxb{
+		width: 90px;
+		height: 43px;
+		border:1px solid #f5f5f5;
+		float: left;
+	} 
+	.banner .box10 .boxc{
+		width: 85px;
+		height: 43px;
+		border:1px solid #f5f5f5;
+		float: left;
+	} 
+	.banner .box10 .boxd{
+		width: 85px;
+		height: 43px;
+		border:1px solid #f5f5f5;
+		float: left;
+	}
+	.banner .box10 .boxe{
+		width: 824px;
+		height: 43px;
+		border:1px solid #f5f5f5;
+		float: left;
+		line-height:43px;
+	} 
+	.banner .box10 .boxe a{
+		margin-left: 27px;
+		text-decoration: none;
+		color: #a1a1a1;
+	}
+	.banner .box10 .boxe .frist-a{
+		margin-left: 540px;
+	}
+	.banner .box10 .boxe .boxf{
+		width: 85px;
+		height: 30px;
+		border: 1px solid #ffffff;
+		margin-right: 14px;
+		margin-top: 6px;
+		float: right;
+	}
+	.banner .box10 .boxe .boxf .left{
+		width: 40px;
+		height: 28px;
+		border: 1px solid #f5f5f5;
+		float: left;
+		line-height: 28px;
+	}
+	.banner .box10 .boxe .boxf .right{
+		width: 41px;
+		height: 28px;
+		border: 1px solid #f5f5f5;
+		float: left;
+		line-height: 28px;
+	}
+
+	.banner .box10 .boxe .boxf .left p{
+		margin-left: 13px;
+		margin-top: 1px;
+		color: #9e9e9e;
+	}
+	.banner .box10 .boxe .boxf .right p{
+		margin-left: 13px;
+		margin-top: 1px;
+		color: #9e9e9e;
+	}
+	.container{
+		height: 1574px;
+		width: 1206px;
+		border: 1px solid #ffffff;
+		margin: auto;
+		margin-top: 30px;
+
+	}
+	.container .box1{
+		height: 1385px;
+		width: 297px;
+		border: 1px solid #ffffff;
+		float: left;
+	}
+	.container .box2{
+		height: 1385px;
+		width: 296px;
+		border: 1px solid #ffffff;
+		float: left;
+		margin-left: 4px;
+	}
+	.container .box3{
+		height: 1385px;
+		width: 296px;
+		border: 1px solid #ffffff;
+		float: left;
+		margin-left: 4px;
+	}
+	.container .box4{
+		height: 1385px;
+		width: 297px;
+		border: 1px solid #ffffff;
+		float: left;
+		margin-left: 4px;
+	}
+	.container .box1 .box5{
+		height: 365px;
+		width: 295px;
+		border: 1px solid #ffffff;
+	}
+	.container .box1 .box5 p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box1 .box6{
+		height: 281px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box1 .box6 p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box1 .box7{
+		height: 325px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box1 .box7 p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box1 .box8{
+		height: 323px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box1 .box8 p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box2 .boxa{
+		height: 323px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		
+	}
+	.container .box2 .boxa p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box2 .boxb{
+		height: 323px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box2 .boxb p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box2 .boxc{
+		height: 323px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box2 .boxc p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box2 .boxd{
+		height: 324px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box2 .boxd p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box3 .boxa{
+		height: 323px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		
+	}
+	.container .box3 .boxa p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box3 .boxb{
+		height: 323px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box3 .boxb p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box3 .boxc{
+		height: 323px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box3 .boxc p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box3 .boxd{
+		height: 324px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box3 .boxd p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+    .container .box4 .boxa{
+		height: 323px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		
+	}
+	.container .box4 .boxa p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box4 .boxb{
+		height: 323px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box4 .boxb p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box4 .boxc{
+		height: 323px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box4 .boxc p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.container .box4 .boxd{
+		height: 324px;
+		width: 295px;
+		border: 1px solid #ffffff;
+		margin-top: 28px;
+	}
+	.container .box4 .boxd p{
+		margin-left: 9px;
+		margin-right:12px;
+	}
+	.footer{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+	border: 1px solid #ffffff;
+	}
+	.footer .f-top{
+	height: 270px;
+	width: 1200px;
+	border: 1px solid #ffffff;
+	}
+	.footer .f-top .f-t-piclist{
+	height: 175px;
+	}
+	.footer .f-top .f-t-piclist .f-t-picbox{
+	height: 175px;
+	width: 107px;
+	float: left;
+	margin-left: 145px;
+	margin-top: 45px;
+}
+	.footer .f-top .f-t-piclist .f-t-picbox h3{
+	text-align: center;
+	color: #3c3c3c;
+	font-size: 15px;
+	}
+	.footer .f-top .f-t-piclist .f-t-picbox p{
+	text-align: center;
+	color: #bcbcbc;
+	font-size: 15px;
+	}
+	.footer .f-center{
+	height: 200px;
+	background-color: #f6f6f6;
+	}
+	.footer .f-center{
+	height: 200px;
+	background-color: #f6f6f6;
+	border: 1px solid #ffffff;
+	}
+	.footer .f-center h3{
+	width: 60px;
+	height: 15px;
+	font-size: 14px;
+	margin-top: 32px;
+	text-align: center;
+	}
+	.footer .f-center ul{
+	list-style: none;
+	font-size: 13px;
+	color: #656565;
+	width: 70px;
+	margin-top: 10px;
+	border-right: 1px solid #dfdfdf;
+	}
+	.footer .f-center .box{
+	width: 197px;
+	height: 170px;
+	float: left;
+	border: 1px solid #f6f6f6;
+    }
+    .box img{
+	margin-top: 10px;
+	}
+.footer .f-buttom{
+	height: 128px;
+}
+.footer .f-buttom ul{
+	margin-left: 320px;
+}
+.footer .f-buttom ul li{
+	list-style: none;
+	width: 70px;
+	height: 20px;
+	font-size: 13px;
+	margin-top: 37px;
+	text-align: center;
+	border-right: 1px solid #545454;
+	float: left;
+}
+.footer .f-buttom .no-line{
+	border-right: none;
+}
+.footer .f-buttom img{
+	margin-top: 34px;
+	margin-left: 440px;
+}
+	</style>
+</head>
+<body>
+<div id="header">
+		<div class="border-bottom">
+			<div class="h-top">
+			<p class="h-top-1">欢迎来到堂屋家居</p>
+			<p class="h-top-2">请登录</p>
+			<p class="h-top-3">免费注册</p>
+			<img src="images/04.gif" alt="">
+			</div>
+		</div>
+		
+		<div class="h-bottom">
+			<img src="images/01.gif" alt="" class="first-img">
+			<img src="images/03.gif" alt=""class="second-img">
+			<img src="images/02.gif" alt="" class="three-img">
+			<p class="first-p">一站式无醛添加建材家居采购平台</p>
+			<p class="second-p">热门搜索</p>
+			<p class="three-p">：多层实木家具 | 汤豪斯专业地 | 顺芯板 | 生态家具板</p>
+			<div class="clear"></div>
+			<div class="h-b-list">
+			<ul class="first-ul">				<li>全部空间分类 v </li></ul>
+				<ul class="second-ul">
+					<li>首页</li>
+					<li>家具城</li>
+					<li>家居家饰</li>
+					<li>建材城</li>
+					<li>百变定制</li>
+					<li>全屋定制</li>
+					<li>家居DIY</li>
+					<li>体验馆</li>
+					<li>招商加盟</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+
+
+<div class="banner">
+	<h3>首页 >卧房家具</h3>
+	<div class="box">
+		<div class="box1">
+			<div class="box3">
+				<p>卧室</p>
+			</div>
+			<div class="box4">
+				<p>品牌</p>
+			</div>
+			<div class="box5">
+				<p>风格</p>
+			</div>
+		</div>
+		<div class="box2">
+			<div class="box6">
+				<a href="" class="first-a">床</a>
+				<a href="">床垫</a>
+				<a href="">美规床</a>
+				<a href="">床头柜</a>
+				<a href="">衣柜</a>
+				<a href="">定制衣柜</a>
+				<a href="">斗柜</a>
+				<a href="">妆台柜/妆凳</a>
+				<a href="">穿衣柜/穿帽间</a>
+				<a href="">床尾凳</a>
+				<a href="">更多</a>
+			</div>
+			<div class="box7">
+				<img src="images/1.gif" alt="图片错误">
+			</div>
+			<div class="box8">
+				<a href="" class="first-a">中式风格</a>
+				<a href="">法式风格</a>
+				<a href="">美式古典</a>
+				<a href="">欧式古典</a>
+				<a href="">现代风格</a>
+				<a href="">美式田园</a>
+				<a href="">欧式田园</a>
+				<a href="">地中海风格</a>
+				<a href="">欧式简约</a>
+				<a href="">更多</a>
+			</div>
+		</div>
+	</div>
+	<div class="box9">
+		<img src="images/2.gif" alt="图片错误">
+	</div>
+	<div class="box10">
+		<div class="boxa">
+			<h3>综合排列</h3>
+		</div>
+		<div class="boxb">
+			<img src="images/3.gif" alt="图片错误">
+		</div>
+		<div class="boxc">
+			<img src="images/4.gif" alt="图片错误">
+		</div>
+		<div class="boxd">
+			<img src="images/5.gif" alt="图片错误">
+		</div>
+		<div class="boxe">
+			<a href="" class="frist-a">共有122个商品</a>
+			<a href="">1/4</a>
+			<div class="boxf">
+				<div class="left">
+					<p><</p>
+				</div>
+				<div class="right">
+					<p>></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="box1">
+		<div class="box5">
+			<img src="images/6.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+			<img src="images/13.jpg" alt="">
+		</div>
+		<div class="box6">
+			<img src="images/7.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+		<div class="box7">
+			<img src="images/11.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+		<div class="box8">
+			<img src="images/11.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+	</div>
+	<div class="box2">
+		<div class="boxa">
+			<img src="images/8.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+		<div class="boxb">
+			<img src="images/8.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+		<div class="boxc">
+			<img src="images/8.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+		<div class="boxd">
+			<img src="images/8.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>		
+	</div>
+	<div class="box3">
+		<div class="boxa">
+			<img src="images/9.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+		<div class="boxb">
+			<img src="images/9.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+		<div class="boxc">
+			<img src="images/9.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+		<div class="boxd">
+			<img src="images/9.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+	</div>
+	<div class="box4">
+		<div class="boxa">
+			<img src="images/10.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+		<div class="boxb">
+			<img src="images/10.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+		<div class="boxc">
+			<img src="images/10.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+		<div class="boxd">
+			<img src="images/10.jpg" alt="">
+			<img src="images/12.jpg" alt="">
+			<p>[绅居世家] 现代风格 刚需族的选择 床头黑白钢琴键镂空设计 1.8米亮光烤漆高箱床</p>
+		</div>
+	</div>
+	<img src="images/14.jpg" alt="">
+</div>
+<div class="footer">
+	<div class="f-top">
+			<div class="f-t-piclist">
+				<div class="f-t-picbox">
+					<img src="images/a.jpg" alt="">
+					<h3>限时达</h3>
+					<p>最快7天到家</p>
+				</div>
+				<div class="f-t-picbox">
+					<img src="images/b.jpg" alt="">
+					<h3>安全保证</h3>
+					<p>100%无醛保证</p>
+				</div>
+				<div class="f-t-picbox">
+					<img src="images/c.jpg" alt="">
+					<h3>送货保证</h3>
+					<p>送货上门</p>
+				</div>
+				<div class="f-t-picbox">
+					<img src="images/d.jpg" alt="">
+					<h3>45天</h3>
+					<p>45天无理由退货</p>
+				</div>
+			</div>
+		</div>
+		<div class="f-center">
+			<div class="box">
+				<h3>新手指南</h3>
+				<ul>
+					<li>会员注册</li>
+					<li>购物和订单</li>
+					<li>电话订购</li>
+					<li>会员制度</li>
+				</ul>
+			</div>
+			<div class="box">
+				<h3>支付方式</h3>
+				<ul>
+					<li>网上支付</li>
+					<li>货到付款</li>
+				</ul>
+			</div>
+			<div class="box">
+					<h3>配送方式</h3>
+				<ul>
+					<li>快递运送</li>
+					<li>特快专递</li>
+				</ul>
+			</div>
+			<div class="box">
+					<h3>售后服务</h3>
+				<ul>
+					<li>退换货政策</li>
+					<li>退换货流程</li>
+					<li>退换说明</li>
+				</ul>
+			</div>
+			<div class="box">
+					<h3>新手指南</h3>
+				<ul>
+					<li>常见问题</li>
+					<li>找回密码</li>
+					<li>联系我们</li>
+					<li>投诉建议</li>
+				</ul>
+			</div>
+			<div class="box">
+					<h3>官方微信</h3>
+				<img src="images/e.jpg" alt="">
+			</div>	
+		</div>
+		<div class="f-buttom">
+			<ul>
+				<li>首页</li>
+				<li>家具城</li>
+				<li>家居家饰</li>
+				<li>建材城</li>
+				<li>百变订制</li>
+				<li>金屋订制</li>
+				<li>家居DIY</li>
+				<li>关于我们</li>
+				<li class="no-line">联系我们</li>
+			</ul>
+			<img src="images/f.jpg" alt="">
+		</div>
+		</div>
+</div>	
+</body>
+</html>

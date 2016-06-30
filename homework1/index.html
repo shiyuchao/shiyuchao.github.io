@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+    .clear{
+    	clear: both;
+    }
+	.header{
+		width: 1000px;
+		height: 160px;
+		border: 1px solid #ffffff;
+		margin: 0 auto;
+	}
+	.header .logo{
+		width: 245px;
+		height: 21px;
+		margin-top: 42px;
+		margin-left: 22px;
+		border: 1px solid #ffffff;
+		float: left;
+	}
+	.header .search{
+		width: 228px;
+		height: 28px;
+		border: 1px solid #ffffff;
+		float: right;
+		margin-top: 41px;
+		margin-right: 19px;
+	}	
+	.header .nav{
+		height: 60px;
+		background-color: #2f2f2f;
+		margin-top: 100px;
+	}
+	.header .nav ul li{
+		width:123px;
+		border: 1px solid #4a4a4a;
+		list-style: none;
+		text-align: center;
+		line-height: 59px;
+		float: left;
+		color: #ffffff;
+	}
+	.banner{
+		height: 465px;
+		width: 1000px;
+		border: 1px solid #ffffff;
+		margin: 0 auto;
+
+	}
+	.banner .picbox{
+		height: 464px;
+		width: 999px;
+		border: 1px solid #ffffff;
+
+	}
+	.container{
+		height: 545px;
+		width: 1000px;
+		border: 1px solid #ffffff;
+		margin: 0 auto;
+	}
+	.container .top{
+		height: 247px;
+		width: 1000px;
+		border: 1px solid #ffffff;
+	}
+	.container .bottom{
+		height: 296px;
+		width: 1000px;
+		border: 1px solid #ffffff;
+	}
+	.container .top .top-left{
+
+		width: 500px;
+		height: 247px;
+		border: 1px solid #ffffff;
+		float: left;
+		background-color: #ffffff;
+	}
+	.container .top .top-center{
+		width: 240px;
+		height: 247px;
+		border: 1px solid #ffffff;
+		float: left;
+		background-color: #f1f1f1;
+	}
+	.container .top .top-right{
+		width: 253px;
+		height: 247px;
+		border: 1px solid #ffffff;
+		float: left;
+		background-color: #fbfbfb;
+	}
+	.container .top .top-left h3{
+		margin-top: 32px;
+		margin-left: 22px;
+	}
+    .container .top .top-left ul{
+	     margin-top: 30px;
+	     margin-left: 22px;
+	     font-size: 7px;
+    }
+    .container .top .top-left ul li{
+    	color: #5b5b5b;
+    }
+    .container .top .top-center h3{
+    	margin-top: 32px;
+		margin-left: 22px;
+    }	
+    .container .top .top-center p{
+    	margin-top: 30px;
+	    margin-left: 22px;
+	     font-size: 7px;
+    }
+    .container .top .top-right h3{
+    	margin-top: 32px;
+		margin-left: 22px;
+    }
+    .container .top .top-right p{
+    	margin-top: 30px;
+	    margin-left: 22px;
+	     font-size: 7px;
+    }
+    .container .bottom h3{
+    	margin-top: 25px;
+    	margin-left: 22px;
+    }
+    .container .bottom .piclist{
+    	height: 226px;
+    	width: 1000px;
+    	border: 1px solid #ffffff;
+    	margin-top:20px ;
+    }
+    .container .bottom .piclist .box1{
+    	width: 210px;
+    	height: 226px;
+    	border: 1px solid #ffffff;
+    	float: left;
+    	margin-left:22px;
+    }
+    .container .bottom .piclist .box2{
+    	width: 210px;
+    	height: 226px;
+    	border: 1px solid #ffffff;
+    	float: left;
+    	margin-left:37px;
+    }
+    .container .bottom .piclist .box3{
+    	width: 210px;
+    	height: 226px;
+    	border: 1px solid #ffffff;
+    	float: left;
+    	margin-left:37px;
+    }
+    .container .bottom .piclist .box4{
+    	width: 210px;
+    	height: 226px;
+    	border: 1px solid #ffffff;
+    	float: left;
+    	margin-left:37px;
+    }
+	.container .bottom .piclist .box1 p{
+		margin-top: 15px;
+		margin-left: 4px;
+		font-size: 7px;
+	}
+	.container .bottom .piclist .box2 p{
+		margin-top: 15px;
+		margin-left: 4px;
+		font-size: 7px;
+	}
+	.container .bottom .piclist .box3 p{
+		margin-top: 15px;
+		margin-left: 4px;
+		font-size: 7px;
+	}
+	.container .bottom .piclist .box4 p{
+		margin-top: 15px;
+		margin-left: 4px;
+		font-size: 7px;
+	}
+	.footer{
+		height: 331px;
+		width: 1000px;
+		border: 1px solid #ffffff;
+		margin: 0 auto;
+	}
+	.footer .top{
+		height: 252px;
+		width: 1000px;
+		border: 1px solid #ffffff;
+	}
+	.footer .bottom{
+		width: 1000px;
+		height: 77px;
+		border: 1px solid #ffffff;
+	}
+	.footer .top .top-left{
+		width: 500px;
+		height: 252px;
+		border: 1px solid #ffffff;
+		float: left;
+		background-color: #e5e5e5;
+	}
+	.footer .top .top-center{
+		width: 196px;
+		height: 252px;
+		border: 1px solid #ffffff;
+		float: left;
+		background-color: #e5e5e5;
+	}
+	.footer .top .top-right{
+		width: 298px;
+		height: 252px;
+		border: 1px solid #ffffff;
+		float: left;
+		background-color: #e5e5e5;
+	}
+	.footer .top .top-left .boxa{
+		height: 29px;
+		width: 454px;
+		margin-left: 20px;
+		margin-top: 28px;
+		border-bottom: 1px solid #7c7c7c;
+	}
+	.footer .top .top-center .boxb{
+		height: 29px;
+		width: 151px;
+		margin-left: 20px;
+		margin-top: 28px;
+		border-bottom: 1px solid #7c7c7c;
+	}
+	.footer .top .top-right .boxc{
+		height: 29px;
+		width: 258px;
+		margin-left: 15px;
+		margin-top: 28px;
+		border-bottom: 1px solid #7c7c7c;
+	}
+    .footer .top .top-left .boxa h3{
+    	color: #7c7c7c
+    }
+    .footer .top .top-center .boxb h3{
+    	color: #7c7c7c
+    }
+    .footer .top .top-right .boxc h3{
+    	color: #7c7c7c
+    }
+    .footer .top .top-left .boxd{
+    	height: 143px;
+    	width: 148px;
+    	border: 1px solid #ffffff;
+    	margin-left:20px;
+    	margin-top:50px;
+    	float: left;
+    }
+    .footer .top .top-left .boxe{
+    	height: 143px;
+    	width: 180px;
+    	border: 1px solid #ffffff;
+    	margin-top:50px;
+    	float: left;
+    }
+    .footer .top .top-left .boxf{
+    	height: 143px;
+    	width: 100px;
+    	border: 1px solid #ffffff;
+    	margin-top:50px;
+    	float: left;
+    }
+    .footer .top .top-left .boxd ul li{
+    	list-style: none;
+    	color: #7c7c7c;
+    }
+    .footer .top .top-left .boxe ul li{
+    	list-style: none;
+    	color: #7c7c7c;
+    }
+    .footer .top .top-left .boxf ul li{
+    	list-style: none;
+    	color: #7c7c7c;
+    }
+    .footer .top .top-center ul li{
+    	list-style: none;
+    	color: #7c7c7c;
+    }
+    .footer .top .top-center ul{
+    	margin-top:40px;
+    	margin-left: 20px;
+    }
+    .bottom .boxm{
+    	
+    	float: left;
+    }
+    .bottom .boxn{
+    	float: right;
+    }
+    
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="images\1.gif" alt="图片错误">
+		</div>
+		<div class="search">
+			<img src="images\11.gif" alt="">
+		</div>
+		<div class="nav">
+			<ul>
+				<li>集团介绍</li>
+				<li>产品中心</li>
+				<li>卧龙市场</li>
+				<li>技术研发</li>
+				<li>国际合作</li>
+				<li>投资者关系</li>
+				<li>新闻资讯</li>
+				<li>人力资源</li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="picbox">
+			<img src="images\2.jpg" alt="图片错误">
+		</div>		
+	</div>
+	<div class="container">
+	<div class="top">
+		<div class="top-left">
+			<h3>新闻资讯<h3>
+			<ul>
+				<li>陈建成董事长</li>
+				<li>中国电器</li>
+				<li>陈建成董事长访问</li>
+				<li>企业文化</li>
+				<li>陈建成董事长在ATM</li>
+				<li>喜迎七一</li>
+			</ul>
+		</div>
+		<div class="top-center">
+			<h3>卧龙介绍</h3>
+			<p>公司成立于1984年</p>
+			<p>成为电气制造</p>
+		</div>
+		<div class="top-right">
+			<h3>人才招聘</h3>
+			<p>培养一流的人才</p>
+			<img src="images\3.gif" alt="图片错误">
+		</div>
+	</div>
+	<div class="bottom">
+		<h3>卧龙市场</h3>
+		<div class="piclist">
+			<div class="box1">
+				<img src="images\4.gif" alt="图片错误">
+				<p>
+					交通轨道:由于采用电气牵引，而且轨道摩擦力比较小与公共....
+				</p>
+			</div>
+			<div class="box2">
+				<img src="images\5.gif" alt="图片错误">
+				<p>
+					节能环保：由于不断上涨的能源消耗和我们的专业知识....
+				</p>
+			</div>
+			<div class="box3">
+				<img src="images\6.gif" alt="图片错误">
+				<p>
+					航空与船舰：如果你是在公海上行驶，你需要确保你的船只的电力系统....
+				</p>
+			</div>
+			<div class="box4">
+				<img src="images\7.gif" alt="图片错误">
+				<p>
+					石油、天然气及采矿 :在市场的安全行、可靠性、效率和最短的停机....
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="footer">
+		<div class="top">
+		<div class="top-left">
+			<div class="boxa">
+				<h3>产品中心</h3>
+			<div class="boxd">
+				<ul>
+					<li>>汽车电机</li>
+					<li>>日用电机</li>
+					<li>>特种电机</li>
+					<li>>大功率电机</li>
+					<li>>电工设备</li>
+				</ul>
+			</div>
+			<div class="boxe">
+				<ul>
+					<li>>工业驱动和自动化</li>
+					<li>>高压变频和系统集成</li>
+					<li>>混凝土搅拌机</li>
+					<li>>电动车辆</li>
+				</ul>
+			</div>
+			<div class="boxf">
+				<ul>
+					<li>>电池电源</li>
+					<li>>输变电设备</li>
+					<li>>楼盘信息</li>
+					<li>>金融产品</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		<div class="top-center">
+			<div class="boxb">
+				<h3>技术研发</h3>			
+			</div>
+			<ul>
+				<li>>科技力量</li>
+				<li>>先进设备</li>
+				<li>>研发创新</li>
+				<li>>工艺流程</li>
+			</ul>
+		</div>
+		<div class="top-right">
+			<div class="boxc">
+				<h3>营销网络</h3>			
+			</div>
+			<img src="images\8.jpg" alt="图片错误">
+		</div>	
+		</div>
+		<div class="bottom">
+			<div class="boxm">
+			<img src="images\10.gif" alt="图片错误">
+			</div>
+			<div class="boxn">
+				<img src="images\9.gif" alt="图片错误">
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
